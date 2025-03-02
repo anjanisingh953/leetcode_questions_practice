@@ -9,7 +9,7 @@ function applyOperations(numbers) {
         }
     }
 
-    // Move nonzero elements to the front
+    // Move nonzero elements to the  front
     const result = Array(length).fill(0);
     let index = 0;
     for (const num of numbers) {
